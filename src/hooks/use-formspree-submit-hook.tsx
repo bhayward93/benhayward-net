@@ -80,7 +80,7 @@ export default function useFormSpreeSubmit(): FormSpreeSubmitHook {
         }
 
         setInProgress(false);
-    }, []);
+    }, [parseErrorCode, validateForm]);
 
     return { submitFormSpreeForm, response, error, inProgress };
 };

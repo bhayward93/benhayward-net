@@ -41,7 +41,7 @@ export const ContactForm = (): ReactNode => {
         submitFormSpreeForm(
             new FormData(event.target)
         );
-    }, [])
+    }, [submitFormSpreeForm])
 
     // if there is a response (on success). Return success message component.
     if (response) {
