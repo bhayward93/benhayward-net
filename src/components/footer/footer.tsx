@@ -15,6 +15,7 @@ export const Footer = (): ReactNode => {
             <aside className="items-center grid-flow-col">
                 <ReactScrollLink
                     to="home"
+                    href="/"
                     className="cursor-pointer hidden xs:block items-center md:items-start my-auto ml-[1rem] sm:ml-[3rem] md:ml-[5rem] mr-[42px] md:mr-[200px] font-handwritten-regular text-4xl text-white"
                     spy={true}
                     smooth={true}
@@ -24,13 +25,13 @@ export const Footer = (): ReactNode => {
                 <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
             </aside>
             <nav className="grid-flow-col gap-4 justify-self-center md:place-self-center md:justify-self-end">
-                <Link className="m-auto hover:opacity-60s" href={config.links.gitlab} target="_blank">
+                <Link className="m-auto hover:opacity-60s" href={config.links.gitlab} target="_blank" aria-label="Gitlab link">
                     <GitLabIcon fillColor="#fff" height="24" width="24"></GitLabIcon>
                 </Link>
-                <Link className="m-auto hover:opacity-60" href={config.links.github} target="_blank">
+                <Link className="m-auto hover:opacity-60" href={config.links.github} target="_blank" aria-label="Github link">
                     <GitHubIcon fillColor="#fff" height="24" width="24"></GitHubIcon>
                 </Link>
-                <Link className="m-auto hover:opacity-60" href={config.links.linkedin} target="_blank">
+                <Link className="m-auto hover:opacity-60" href={config.links.linkedin} target="_blank" aria-label="Linkedin link">
                     <LinkedInIcon fillColor="#fff" height="24" width="24"></LinkedInIcon>
                 </Link>
             </nav>

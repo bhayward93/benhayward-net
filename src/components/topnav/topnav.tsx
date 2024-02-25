@@ -19,6 +19,7 @@ export const TopNav = (): ReactNode => {
     <nav className="w-full z-50 h-[50px] flex bg-primary fixed top-0">
       <Link
         to="home"
+        href="/"
         className="cursor-pointer hidden xs:block items-center md:items-start my-auto ml-[1rem] sm:ml-[3rem] md:ml-[5rem] mr-[42px] md:mr-[200px] font-handwritten-regular text-4xl text-white"
         spy={true}
         smooth={true}
@@ -28,6 +29,7 @@ export const TopNav = (): ReactNode => {
       <div className="flex items-center justify-center md:justify-start gap-[42px] w-full text-white">
         <Link
           to="about"
+          href="/"
           className={linkClasses}
           spy={true}
           smooth={true}
@@ -37,6 +39,7 @@ export const TopNav = (): ReactNode => {
         >
         <Link
           to="skills"
+          href="/"
           className={linkClasses}
           spy={true}
           smooth={true}
@@ -45,6 +48,7 @@ export const TopNav = (): ReactNode => {
         >
         <Link
           to="contact"
+          href="/"
           className={linkClasses}
           spy={true}
           smooth={true}

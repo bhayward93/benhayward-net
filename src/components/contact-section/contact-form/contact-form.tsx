@@ -54,7 +54,7 @@ export const ContactForm = (): ReactNode => {
                 <div className="flex flex-col">
                     <label className={clsx({
                         'text-primary opacity-100': isNameFocused,
-                        'text-black opacity-40': !isNameFocused
+                        'text-black opacity-60': !isNameFocused
                     })} htmlFor="name">Full Name</label>
                     <input
                         className={`bg-white text-black border-b-2 text-xl py-2 outline-none focus:border-b-primary focus:text-primary`}
@@ -71,7 +71,7 @@ export const ContactForm = (): ReactNode => {
                 <div className="flex flex-col">
                     <label className={clsx({
                         'text-primary opacity-100': isEmailFocused,
-                        'text-black opacity-40': !isEmailFocused
+                        'text-black opacity-60': !isEmailFocused
                     })} htmlFor="email">Email Address</label>
                     <input
                         className={`bg-white text-black border-b-2 text-xl py-2 outline-none focus:border-b-primary focus:text-primary`}
@@ -89,7 +89,7 @@ export const ContactForm = (): ReactNode => {
             <div className="flex flex-col">
                 <label className={clsx({
                     'text-primary opacity-100': isMessageFocused,
-                    'text-black opacity-40': !isMessageFocused
+                    'text-black opacity-60': !isMessageFocused
                 })} htmlFor="message">Message</label>
                 <textarea
                     ref={messageTextarea}

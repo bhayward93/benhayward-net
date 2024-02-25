@@ -15,13 +15,13 @@ type HorizontalLinksProps =  Pick<HTMLProps<HTMLElement>, 'className'>;
 export const HorizontalLinks = ({ className }: HorizontalLinksProps): ReactNode => {
   return (
     <div className={`transparent flex flex-row align-center space-between ${className}`}>
-      <Link className="m-auto" href={config.links.gitlab} target="_blank">
+      <Link className="m-auto" href={config.links.gitlab} target="_blank" aria-label="Gitlab link">
         <GitLabIcon fillColor="#ffffff"></GitLabIcon>
       </Link>
-      <Link className="m-auto" href={config.links.github} target="_blank">
+      <Link className="m-auto" href={config.links.github} target="_blank" aria-label="Github link">
         <GitHubIcon fillColor="#ffffff"></GitHubIcon>
       </Link>
-      <Link className="m-auto" href={config.links.linkedin} target="_blank">
+      <Link className="m-auto" href={config.links.linkedin} target="_blank" aria-label="Linkedin link">
         <LinkedInIcon fillColor="#ffffff"></LinkedInIcon>
       </Link>
     </div>
