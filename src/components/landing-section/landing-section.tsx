@@ -24,7 +24,7 @@ export default function LandingSection(): ReactNode {
               />            
             </header>
             <p className={bracketDecorationClass}>{'}'}</p>
-          <div className="relative hidden mt-28 ml-20 2xl:block h-[400px] w-[400px] 3xl:h-[600px] 3xl:w-[600px] 4xl:h-[800px] 4xl:w-[800px]">
+          <div className="relative hidden mt-28 ml-20 2xl:block h-[372px] w-[400px] 3xl:h-[600px] 3xl:w-[600px] 4xl:h-[800px] 4xl:w-[800px]">
               <Image src="/abtract-person-laptop.png" alt="abstract person" fill objectFit="rcover"></Image>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function LandingSection(): ReactNode {
         </section>
       </div>
       <Wave
-        className="translate-y-[-100%] h-[200px]"
+        className="translate-y-[-100%] h-[200px] mb-[-2px]"
         fill='#FFFFF0'
         paused={false}
         style={{ display: 'flex' }}
