@@ -12,9 +12,9 @@ import { ReactNode } from 'react';
 export default function AboutSection(): ReactNode {
   return (
     <>
-      <section className="md:min-h-[60vh] bg-white flex flex-row justify-around align-center gap-[100px] px-8 sm:px-16 md:px-28 lg:px-52" id="about">
-        <div className="grow-2 md:m-auto min-h-fit">
-          <div className="font-body-regular text-black text-lg sm:text-2xl max-w-[700px]">
+      <section className="md:min-h-[60vh] max-w-screen bg-white flex flex-row justify-center align-center items-center gap-[10vw] px-8 sm:px-16 md:px-28 lg:px-80" id="about">
+        <div className="grow-2 min-h-fit">
+          <div className="font-body-regular text-black text-lg sm:text-2xl 4xl:text-5xl max-w-[800px] 4xl:max-w-[1000px]">
             <p className="block mb-4">I'm Ben! I'm a full-stack developer from the UK with a passion for software development across a variety of frameworks and languages, such as Typescript and PHP. I also reguarly find myself in dev-ops land playing with Kubernetes and Helm. I am a big advocate for FOSS, love Linux and enjoy tinkering with new technologies in my spare time.</p>
             <p>I've made this site to act as a kind of playground for me to quickly try out and prototype new ideas. If anybody wants to connect, please do reach out and say hello!</p>
           </div>

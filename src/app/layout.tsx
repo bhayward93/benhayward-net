@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${fontClasses} bg-white`}>
         <TopNav></TopNav>
-        <SideLinks className="hidden xl:flex fixed z-20 top-[20%] left-20 "></SideLinks>  
+        <SideLinks className="hidden xl:flex fixed z-20 top-[20%] 3xl:top-[30%] left-20"></SideLinks>  
         { children }
         <Footer/>
       </body>
