@@ -9,7 +9,7 @@ import SkillsSection from '../components/skills-section/skills-section'
  */
 export default function Home(): React.ReactNode {
   return (
-    <main className="min-h-screen flex-col">
+    <main className="min-h-screen flex-col overflow-x-hidden max-w-screen">
       <LandingSection></LandingSection>
       <AboutSection></AboutSection>
       <SkillsSection></SkillsSection>

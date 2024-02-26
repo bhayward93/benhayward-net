@@ -14,7 +14,7 @@ export default function SkillsSection(): ReactNode {
       <section id="skills" className="min-h-[80vh] bg-primary flex flex-col md:justify-around align-center">
         <FlipCards/>
         <Wave
-          className="h-[20vh] w-screen min-w-screen translate-y-px"
+          className="h-[20vh] w-screen min-w-screen mb-[-2px]"
           fill='#FFFFF0'
           paused={false}
           style={{ display: 'flex' }}
@@ -33,7 +33,7 @@ export default function SkillsSection(): ReactNode {
   )
 }
 
-const flipCardClass: string = "h-[200px] w-[300px] bg-white rounded-lg";
+const flipCardClass: string = "h-[200px] w-[300px] 4xl:h-[300px] 4xl:w-[500px] bg-white rounded-lg";
 
 /**
  * Flip cards for the skills section.

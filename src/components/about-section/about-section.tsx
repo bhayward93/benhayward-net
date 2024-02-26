@@ -44,7 +44,7 @@ export default function AboutSection(): ReactNode {
         </motion.div>
       </section>
       <Wave
-        className="h-[20vh] bg-white"
+        className="h-[20vh] bg-white mb-[-2px]"
         fill='#8F00FF'
         paused={false}
         style={{ display: 'flex' }}

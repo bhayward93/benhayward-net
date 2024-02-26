@@ -59,9 +59,9 @@ type FlipCardBackProps =  Pick<ComponentProps<"div">, 'className'> & { title: st
 const FlipCardBack = ({className, title, description}: FlipCardBackProps): ReactNode => {
     return (
         <div className={`flex flex-col items-start justify-center ${className} px-12 text-black`}>
-            <h2 className="font-heading-bold text-2xl mb-4">{title}</h2>
+            <h2 className="font-heading-bold text-2xl 4xl:text-4xl mb-4">{title}</h2>
             {description && 
-                <p className='font-body-regular text-md'>{description}</p>
+                <p className='font-body-regular text-md 4xl:text-2xl'>{description}</p>
             }
         </div>
     )
