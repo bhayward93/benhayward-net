@@ -26,7 +26,7 @@ export default function SkillsSection(): ReactNode {
           }}
         />
       </section>
-      <section className="flex justify-center px-0 xl:px-52">
+      <section className="flex justify-center px-0 xl:px-52 4xl:translate-y-[-100px]">
         <ProjectsCarousel></ProjectsCarousel>
       </section>
     </>
